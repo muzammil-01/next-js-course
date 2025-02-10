@@ -9,6 +9,13 @@
     --foreground: #ededed;
   }
 }
+header main li{
+  list-style: none;
+}
+header main ul{
+  display: flex;
+  gap: 150px;
+}
 
 html,
 body {
@@ -39,4 +46,13 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+header{
+  padding: 20px 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+header main{
+  display: flex;
+  justify-content: space-between;
 }
