@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Header() {
@@ -7,8 +8,20 @@ export default function Header() {
         <main>
             <h2>Logo</h2>
             <ul>
-                <li>Home</li>
-                <li>About</li>
+                <li>
+                  <Link href='/'>
+                  Home
+                  </Link>
+                  </li>
+                <li>
+                <Link href='/about'>
+                About
+                  </Link>
+                  </li>
+                <li>
+                  <Link href='/course'>
+                  Course
+                  </Link></li>
             </ul>
         </main>
       </header>
